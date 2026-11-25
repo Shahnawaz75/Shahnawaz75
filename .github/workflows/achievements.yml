@@ -15,9 +15,20 @@ concurrency:
 jobs:
   card:
     runs-on: ubuntu-latest
+    env:
+      # A read-only personal access token stored as the ACHIEVEMENTS_TOKEN secret.
+      # The built-in workflow token can't see private repositories, so the counts
+      # (and the Pull Shark tier) would come out lower than GitHub's.
+      HAS_TOKEN: ${{ secrets.ACHIEVEMENTS_TOKEN != '' }}
     steps:
+      - name: Skip until the ACHIEVEMENTS_TOKEN secret is set
+        if: env.HAS_TOKEN != 'true'
+        run: echo "::notice::ACHIEVEMENTS_TOKEN secret is not set, so the card was not updated."
       - uses: actions/checkout@v7
+        if: env.HAS_TOKEN == 'true'
       - uses: Shahnawaz75/github-achievements-progress@v0.1.0
+        if: env.HAS_TOKEN == 'true'
         with:
           output: achievements.svg
           dark-output: achievements-dark.svg
+          token: ${{ secrets.ACHIEVEMENTS_TOKEN }}

@@ -70,3 +70,30 @@ Focused Software Engineer with extensive experience in backend systems, custom w
   <!-- SUBTLE STREAK ANIMATION -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shahnawaz75&theme=tokyonight&hide_border=true&fire=dddddd" alt="GitHub Streak" />
 </div>
+
+---
+
+### 🏆 GitHub achievements progress
+
+<div align="center">
+  <a href="https://github.com/Shahnawaz75/github-achievements-progress">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="achievements-dark.svg">
+      <img alt="My progress toward the next tier of each GitHub achievement" src="achievements.svg">
+    </picture>
+  </a>
+  <p><sub>Updated daily by <a href="https://github.com/Shahnawaz75/github-achievements-progress">github-achievements-progress</a>, a free tool that shows how close you are to every GitHub badge.</sub></p>
+</div>
+
+---
+
+### 🧰 Free open source tools I made
+
+- **[github-achievements-progress](https://github.com/Shahnawaz75/github-achievements-progress)**: see how close you are to the next tier of every GitHub achievement, and why a badge didn't unlock.
+- **[pyinstaller-doctor](https://github.com/Shahnawaz75/pyinstaller-doctor)**: find out why your PyInstaller exe fails and get the exact fix.
+- **[pip-conflict-explainer](https://github.com/Shahnawaz75/pip-conflict-explainer)**: explains pip dependency conflicts (ResolutionImpossible) in plain words.
+- **[windows-long-path-doctor](https://github.com/Shahnawaz75/windows-long-path-doctor)**: finds and fixes "Filename too long" problems on Windows.
+- **[excel-link-finder](https://github.com/Shahnawaz75/excel-link-finder)**: finds the external links in Excel workbooks that "Break Links" can't remove.
+- **[dxf-diff](https://github.com/Shahnawaz75/dxf-diff)**: compare two DXF drawing revisions and see what changed.
+- **[dxf-takeoff](https://github.com/Shahnawaz75/dxf-takeoff)**: quantity takeoff from DXF drawings (counts, lengths, areas).
+- **[svg-to-dxf](https://github.com/Shahnawaz75/svg-to-dxf)**: convert SVG to DXF at the right size for laser cutting and CNC.
